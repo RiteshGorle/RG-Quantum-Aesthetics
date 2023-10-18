@@ -1,0 +1,326 @@
+/****************
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%=>  WebSite Name: Quantum Aesthetics  <=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%=>     Made by: Saurabh Pawar         <=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--> 
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%=>     Created: March 2022            <=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%=>     Content: Quantum Aesthetics    <=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+*******************/
+
+
+
+/***********************************/
+/*      00. BASIC CSS STYLES      */
+/***********************************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+
+
+
+/***************************************************/
+/*      01. SECTION 01:  LOGO AND NAV BAR          */
+/***************************************************/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #000000;
+}
+
+.image2 {
+  position: absolute;
+  top: 00px;
+  left: 00px;
+  border: 1px solid #000000;
+}
+
+
+.image3 {
+  position: absolute;
+  top: 618px;
+  left: 00px;
+  
+}
+
+
+
+
+
+/* Style the header container */
+.header {
+    position: relative;
+}
+
+/* Style the background image */
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 9999;
+}
+
+.navbar-brand{
+    width: 160px;
+    margin-left: 100px;
+}
+
+.nav-link{
+    font-size: 17px;
+}
+
+
+.collapse{
+    background: none;
+
+}
+
+
+/* heading and para positions */
+.below{
+  position: absolute;
+    top: 160px;
+    left: 60px;
+    right: 0;
+    padding: 20px;
+}
+
+
+.content-para{
+    font-size: 16px;
+}
+
+.content-head{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+
+/* Button */
+
+.btn {
+  border: none;
+  color: black;
+  padding: 12px 68px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.success {background-color: white} 
+.success:hover {background-color: yellow;}
+
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+
+.content-para{
+    font-size: 11px;
+}
+
+.content-head{
+    font-size: 20px;
+}
+
+
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  
+  .collapse{
+    background-color: black;
+
+}
+
+.below{
+  position: absolute;
+    top: 100px;
+    
+}
+
+
+  .btn {
+  
+  padding: 8px 12px;
+  font-size: 4px;
+  
+}
+
+.content-para{
+    font-size: 6px;
+}
+
+.content-head{
+    font-size: 14px;
+}
+
+
+}
+
+
+/* hide and seek css */
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+  #my-content { display: none; }  /* hide it elsewhere */
+
+  
+}
+
+@media screen and (min-width: 1201px) and (max-width:4000px) {
+  #my-content { display:block; }  /* show it on big screens */
+   
+}
+
+
+
+
+/***************************************************/
+/*      02. SECTION 03: IMAGE AND PARA START       */
+/***************************************************/
+
+.my {
+  position: relative;
+  
+  color: white;
+}
+
+
+.main-img{
+    width: 100%;
+    height: 800px;
+}
+
+.top-left {
+  position: absolute;
+  top: 200px;
+  left: 160px;
+}
+
+.top-right {
+  position: absolute;
+  top: 160px;
+  right: 00px;
+}
+
+.step-head{
+font-size: 46px;
+
+}
+
+
+.para2{
+    font-size: 18px;
+
+}
+
+
+.photo{
+    width: 600px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  .step-head{
+font-size: 24px;
+
+}
+
+
+  .para2{
+    font-size: 12px;
+
+}
+
+
+.main-img{
+    width: 100%;
+    height: 700px;
+}
+
+  
+}
+
+
+
+/***************************************************/
+/*      03. SECTION 04: MAP AND ADDRESS START      */
+/***************************************************/
+
+.map{
+    width: 100%;
+  height: auto;
+}
+
+
+ul.horizontal-list li {
+  display: inline-block;
+}
+
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.para3{
+    font-size: 18px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+
+.para3{
+    font-size: 12px;
+}
+
+}
+
+
+
+
+
+/******************************/
+/*         12. Footer         */
+/******************************/ 
+footer{
+    background-color: #f2f2f2;
+}
+
+#id77 {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.head4{
+    font-size: 18px;
+}
